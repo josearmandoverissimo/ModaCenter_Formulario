@@ -3,7 +3,7 @@
 /* Borda Azul do topo */
 #borda {
   background-color: #9841E2;
-  background-image: url(/Tela-Login-Moda-Center/img/logo\ moda\ center.svg);
+  background-image: url(./Tela-Login-Moda-Center/img/logo\ moda\ center.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: center;
   height: 55px;

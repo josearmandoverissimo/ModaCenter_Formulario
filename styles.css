@@ -107,8 +107,8 @@
 
 /* Estilização dos buttons */
 .btn {
-  background: #35DB9F;
-  border-color: #35DB9F;
+  background: #14A664;
+  border-color: #14A664;
   color: #FFFFFF;
   font-size: 20px;
   line-height: 20px;
@@ -129,8 +129,8 @@
 
 .btn.btn-primary {
   width: 100%;
-  background: #35DB9F;
-  border-color: #35DB9F;
+  background: #14A664;
+  border-color: #14A664;
   height: 47px;
   font-size: 19px;
   font-weight: 800;

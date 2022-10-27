@@ -4,8 +4,8 @@
 #borda {
   background-color: #9841E2;
   background-image: url(./img/logocenter.svg);
-    background-repeat: no-repeat, no-repeat;
-    background-position: center;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center;
   height: 55px;
   margin-bottom: 50px;
 }
@@ -443,11 +443,11 @@ h2 {
     text-align: center;
   }
 
-  .container6{
+  .container6 {
     height: 820px;
   }
 
- 
+
 }
 
 @media (max-width:1199px) {
@@ -459,10 +459,10 @@ h2 {
 /* -----------------------------------AND MEDIA----------------------------------- */
 
 /* CORREÇÃO ROLAGEM LATERAL NO MOBILE */
-html, body 
-{ 
- height: 100%;
- overflow-x: hidden;
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
 }
 
 .place {

@@ -3,16 +3,18 @@
 /* Borda Azul do topo */
 #borda {
   background-color: #9841E2;
-  background-image: url(./img/logocenter.svg);
+  /* background-image: url(./img/logocenter.svg); */
   background-repeat: no-repeat, no-repeat;
   background-position: center;
-  height: 55px;
+  height: 73px;
   margin-bottom: 50px;
 }
 
-#borda .img-fluid {
-  height: 35px;
-  width: 500px;
+
+.img-fluid-2 {
+  width: 100%;
+  padding-top: 30px;
+  height: 450px;
 }
 
 .center {
@@ -34,31 +36,66 @@
 
 /* Estilização do container 1 que conta com o H2 */
 .container1 {
-  height: 200px;
+  width: 583px;
+  height: 450px;
 }
+
 
 
 /* Estilização do container 2 que mostra o conteúdo com valor */
 .container2 {
-  border-style: groove;
-  border-width: 1px 1px 1px 1px;
-  border-color: #5A39A2;
-  border-radius: 10px 10px 10px 10px;
+
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  height: 200px;
+  height: 500px;
+
+  /* Texto */
+
+}
+
+.text-center {
+  font-family: 'Roboto', sans-serif;
+}
+
+#textcontainer2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 25px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  margin: 10px;
+  width: 85%;
 }
 
 
 /* Dinheiro 2 container*/
 .din {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
   font-weight: 700;
-  color: #9841E2;
+  color: #FF0000;
   margin: 0;
   padding: 0;
+
+}
+
+.caixa {
+  border-style: groove;
+  border-width: 2px 2px 2px 2px;
+  border-color: #acacac4a;
+  border-radius: 20px 20px 20px 20px;
+  height: 140px;
+  width: 310px;
+  margin: 5px;
+}
+
+#oferta {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 3vh;
+  font-size: 17px;
+  font-weight: 700;
 }
 
 /* -----------------------------------AND HEADER----------------------------------- */
@@ -67,17 +104,34 @@
 
 /* Estilização do container 3 que mostra o conteúdo com valor */
 .container3 {
-  height: 700px;
+  height: 500px;
   margin-top: 70px;
-  /* background-color: aqua; */
+}
+
+.container3 p {
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#pcontainer3 {
+  font-weight: 700;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
 }
 
 
 /* Estilização do container 4 que mostra o conteúdo com valor */
 .container4 {
-  height: 950px;
+  height: 500px;
   margin-top: 70px;
+  font-family: 'Roboto', sans-serif;
   /* background-color: rgb(255, 0, 174); */
+}
+
+.container4 p {
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -104,69 +158,49 @@
   height: 100%;
 }
 
-
-/* Estilização dos buttons */
-.btn {
-  background: #14A664;
-  border-color: #14A664;
-  color: #FFFFFF;
-  font-size: 20px;
-  line-height: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  border-radius: 3px;
-  padding: 12px 24px;
-  margin: 0;
-  cursor: pointer;
-  display: inline-block;
-  font-weight: 600;
-  position: relative;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  transition: all .15s linear;
-  margin-top: 15px;
+.newbutton {
+  padding: 20px 20px 20px 20px;
+  background-color: #FFF;
+  border-style: solid;
+  border-width: 10px 10px 10px 10px;
+  border-color: #FFF;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 0 24px 0 rgb(0 0 0 / 50%);
+  /* width: 416px; */
+  height: 32%;
+  width: 90%;
 }
 
-.btn.btn-primary {
-  width: 100%;
-  background: #14A664;
-  border-color: #14A664;
-  height: 47px;
+.container2 .botao {
+  width: 85%;
+  height: 85px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: #03A430;
+  border-radius: 20px 20px 20px 20px;
+  color: #FFF;
+  border: none;
+  margin-top: 28px;
+  font-weight: 500;
   font-size: 19px;
-  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
 }
 
-.btn-primary:hover {
-  transition: all 0.5s;
-  cursor: pointer;
-
+.and .botao {
+  width: 400px;
+  height: 80px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: #03A430;
+  border-radius: 20px 20px 20px 20px;
+  color: #FFF;
+  border: none;
+  margin-top: 28px;
+  font-weight: 600;
+  font-size: 19px;
 }
 
 
-.btn.btn-primary:hover {
-  transform: scale(1.03);
-  background-color: #35DB9F;
-}
 
-
-
-/* Margin do textarea */
-.green-border-focus {
-  margin-top: 20px;
-}
-
-/* Color da borda do textarea */
-.green-border-focus .form-control:focus {
-  border: 1px solid #36DB9F;
-  box-shadow: 0 0 0 0.2rem rgba(139, 195, 74, .25);
-
-}
-
-/* .form-floating .form-control:focus {
-  border: 1px solid #36DB9F;
-  box-shadow: 0 0 0 0.2rem rgba(139, 195, 74, .25);
-
-} */
+/*
 
 
 /* -----------------------------------AND MAIN----------------------------------- */
@@ -214,18 +248,21 @@
 
 /* Texto das ferramentas */
 #ferramenta {
-  color: #5A39A2;
+  color: black;
   padding-top: 80px;
   padding-bottom: 30px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
 }
 
 #ferramenta2 {
-  color: #5A39A2;
+  color: black;
   padding-top: 15px;
   padding-bottom: 5px;
-  font-weight: 600;
-  font-size: 35px;
+  font-weight: 700;
+  font-size: 55px;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -239,14 +276,19 @@
   color: inherit;
   text-align: center;
   padding-top: 10px;
+  font-size: 18px;
 }
 
 /* /Estilização das ferramentas FIM*/
 
+.container5 {
+  padding-bottom: 70px;
+}
+
 /* Estilização acordeon container6 */
 .container6 {
   background-color: #F7F9FB;
-  height: 1000px;
+  height: 900px;
 }
 
 .container6 p {
@@ -260,8 +302,8 @@
 }
 
 .accordion__title {
-  font-family: 'industry', sans-serif;
-  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   color: #fff;
   text-transform: uppercase;
   font-size: 1.125em;
@@ -350,8 +392,8 @@
 
 .accordion__itemTitle {
   margin: 0;
-  font-family: 'industry', sans-serif;
-  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   font-size: 1em;
   position: relative;
   z-index: 10;
@@ -385,15 +427,17 @@
 
 /* Distancia a logo com as marcas do texto que fica na parte de cima. */
 .img-marcas {
-  padding-top: 50px;
+  padding-top: 15px;
+  height: 35px;
+  width: 500px;
+  padding-bottom: 30px;
 }
 
 /* Estilização texto */
 p {
-  font-family: "Montserrat", Sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 19px;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
 }
 
 /* Estilização do H2 */
@@ -412,14 +456,57 @@ h2 {
 /* -----------------------------------START MEDIA----------------------------------- */
 /* Responsividade e tamanho das divs */
 @media (max-width: 768px) {
-  .container2 {
-    width: 100%;
-    height: 250px;
+
+  .container1 {
+    display: flex;
+    height: 350px;
   }
 
-  .container3 {
-    order: 2;
+  .container1 .img-fluid-2 {
+
+    height: 300px;
   }
+
+
+  .container1 img {
+    width: 100%;
+    height: 80%;
+    padding-top: 40px;
+  }
+
+  .container-fluid .botao {
+    margin-top: 30px;
+  }
+
+  .container-fluid .whatsapp {
+    margin-top: 10px;
+  }
+
+  .container4 {
+    padding-bottom: 700px;
+  }
+
+
+
+  .container2 {
+    width: 100%;
+    height: 100px;
+  }
+
+  .container2 #textcontainer2 {
+    display: none;
+  }
+
+  .container2 {}
+
+  .container2 .botao {
+    display: none;
+  }
+
+  .container2 #oferta {
+    padding-top: 1vh;
+  }
+
 
   /* .container4 {
     order: 1;
@@ -436,7 +523,7 @@ h2 {
   }
 
   #ferramenta {
-    padding-top: 130px;
+    padding-top: 60px;
   }
 
   #din2 {
@@ -444,15 +531,17 @@ h2 {
   }
 
   .container6 {
-    height: 820px;
+    height: 1200px;
   }
+
+  .container6 .text-center {}
 
 
 }
 
 @media (max-width:1199px) {
   .container4 {
-    height: 1020px;
+    height: 600px;
   }
 }
 
@@ -467,4 +556,23 @@ body {
 
 .place {
   color: #BFBFBF;
+}
+
+.container {
+  /* border: 1px solid black; */
+}
+
+.and {
+  height: 130px;
+  background-color: #F7F9FB;
+}
+
+.whatsapp {
+  background-color: #F7F9FB;
+  background-repeat: no-repeat, no-repeat;
+
+}
+
+.logologo {
+  width: 280px;
 }

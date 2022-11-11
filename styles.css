@@ -507,6 +507,10 @@ h2 {
     padding-top: 1vh;
   }
 
+  .container2 .caixa {
+    width: 335px;
+  }
+
 
   /* .container4 {
     order: 1;

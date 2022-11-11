@@ -129,7 +129,6 @@
 }
 
 .container4 p {
-  font-weight: 700;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
 }
@@ -478,9 +477,7 @@ h2 {
     margin-top: 30px;
   }
 
-  .container-fluid .whatsapp {
-    margin-top: 10px;
-  }
+ 
 
   .container4 {
     padding-bottom: 700px;
@@ -579,4 +576,10 @@ body {
 
 .logologo {
   width: 280px;
+}
+
+.whatsapp-link {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
 }
